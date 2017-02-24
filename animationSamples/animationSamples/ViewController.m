@@ -18,7 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _dataList = @[@"GooeySlideMenuDemoController"];
+    _dataList = @[@"GooeySlideMenuDemoController",
+                  @"QQRedBageViewDemoController"];
 }
 
 
