@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F91CB2531E5FC42E002B9DDB /* QQRedBageViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91CB2521E5FC42E002B9DDB /* QQRedBageViewDemoController.m */; };
 		F91CB2561E5FC4B0002B9DDB /* QQRedBageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F91CB2551E5FC4B0002B9DDB /* QQRedBageView.m */; };
+		F91CB25A1E6031AC002B9DDB /* SplashAnimationDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91CB2591E6031AC002B9DDB /* SplashAnimationDemoController.m */; };
 		F99EA4EC1E5D797D00AB3994 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F99EA4EB1E5D797D00AB3994 /* main.m */; };
 		F99EA4EF1E5D797D00AB3994 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F99EA4EE1E5D797D00AB3994 /* AppDelegate.m */; };
 		F99EA4F21E5D797D00AB3994 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99EA4F11E5D797D00AB3994 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 		F91CB2521E5FC42E002B9DDB /* QQRedBageViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQRedBageViewDemoController.m; sourceTree = "<group>"; };
 		F91CB2541E5FC4B0002B9DDB /* QQRedBageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQRedBageView.h; sourceTree = "<group>"; };
 		F91CB2551E5FC4B0002B9DDB /* QQRedBageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQRedBageView.m; sourceTree = "<group>"; };
+		F91CB2581E6031AC002B9DDB /* SplashAnimationDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashAnimationDemoController.h; sourceTree = "<group>"; };
+		F91CB2591E6031AC002B9DDB /* SplashAnimationDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashAnimationDemoController.m; sourceTree = "<group>"; };
 		F99EA4E71E5D797D00AB3994 /* animationSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animationSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99EA4EB1E5D797D00AB3994 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F99EA4ED1E5D797D00AB3994 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +87,15 @@
 			path = QQRedBageViewDemo;
 			sourceTree = "<group>";
 		};
+		F91CB2571E60319B002B9DDB /* SplashAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F91CB2581E6031AC002B9DDB /* SplashAnimationDemoController.h */,
+				F91CB2591E6031AC002B9DDB /* SplashAnimationDemoController.m */,
+			);
+			path = SplashAnimationDemo;
+			sourceTree = "<group>";
+		};
 		F99EA4DE1E5D797D00AB3994 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +117,7 @@
 		F99EA4E91E5D797D00AB3994 /* animationSamples */ = {
 			isa = PBXGroup;
 			children = (
+				F91CB2571E60319B002B9DDB /* SplashAnimationDemo */,
 				F91CB2501E5FC3F6002B9DDB /* QQRedBageViewDemo */,
 				F99EA50F1E5D7C4800AB3994 /* GooeySlideMenuDemo */,
 				F99EA4ED1E5D797D00AB3994 /* AppDelegate.h */,
@@ -255,6 +268,7 @@
 				F91CB2531E5FC42E002B9DDB /* QQRedBageViewDemoController.m in Sources */,
 				F91CB2561E5FC4B0002B9DDB /* QQRedBageView.m in Sources */,
 				F99EA5181E5DAB0200AB3994 /* SlideMenuButton.m in Sources */,
+				F91CB25A1E6031AC002B9DDB /* SplashAnimationDemoController.m in Sources */,
 				F99EA4F21E5D797D00AB3994 /* ViewController.m in Sources */,
 				F99EA4EF1E5D797D00AB3994 /* AppDelegate.m in Sources */,
 				F99EA4EC1E5D797D00AB3994 /* main.m in Sources */,
