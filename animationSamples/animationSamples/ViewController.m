@@ -20,7 +20,10 @@
     [super viewDidLoad];
     _dataList = @[@"GooeySlideMenuDemoController",
                   @"QQRedBageViewDemoController",
-                  @"SplashAnimationDemoController"];
+                  @"SplashAnimationDemoController",
+                  @"PingTransitionDemoController",
+                  @"JumpStarViewDemoController",
+                  @"DownloadButtonDemoController"];
 }
 
 
