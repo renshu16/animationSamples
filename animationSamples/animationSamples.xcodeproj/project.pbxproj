@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADC16AB61E65C43F00C1788A /* SQCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC16AB51E65C43F00C1788A /* SQCurveView.m */; };
+		ADC16AB91E65C49700C1788A /* SQCurveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC16AB81E65C49700C1788A /* SQCurveLayer.m */; };
 		F91CB2531E5FC42E002B9DDB /* QQRedBageViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91CB2521E5FC42E002B9DDB /* QQRedBageViewDemoController.m */; };
 		F91CB2561E5FC4B0002B9DDB /* QQRedBageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F91CB2551E5FC4B0002B9DDB /* QQRedBageView.m */; };
 		F91CB25A1E6031AC002B9DDB /* SplashAnimationDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91CB2591E6031AC002B9DDB /* SplashAnimationDemoController.m */; };
@@ -44,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ADC16AB41E65C43F00C1788A /* SQCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQCurveView.h; sourceTree = "<group>"; };
+		ADC16AB51E65C43F00C1788A /* SQCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQCurveView.m; sourceTree = "<group>"; };
+		ADC16AB71E65C49700C1788A /* SQCurveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQCurveLayer.h; sourceTree = "<group>"; };
+		ADC16AB81E65C49700C1788A /* SQCurveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQCurveLayer.m; sourceTree = "<group>"; };
 		F91CB2511E5FC42E002B9DDB /* QQRedBageViewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQRedBageViewDemoController.h; sourceTree = "<group>"; };
 		F91CB2521E5FC42E002B9DDB /* QQRedBageViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQRedBageViewDemoController.m; sourceTree = "<group>"; };
 		F91CB2541E5FC4B0002B9DDB /* QQRedBageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQRedBageView.h; sourceTree = "<group>"; };
@@ -230,6 +236,10 @@
 				F9BF54AD1E655F9E00EEC8B5 /* Helpers */,
 				F9BF54AA1E655D5100EEC8B5 /* SQPullToCurveView.h */,
 				F9BF54AB1E655D5100EEC8B5 /* SQPullToCurveView.m */,
+				ADC16AB41E65C43F00C1788A /* SQCurveView.h */,
+				ADC16AB51E65C43F00C1788A /* SQCurveView.m */,
+				ADC16AB71E65C49700C1788A /* SQCurveLayer.h */,
+				ADC16AB81E65C49700C1788A /* SQCurveLayer.m */,
 			);
 			path = SQPullToCurveView;
 			sourceTree = "<group>";
@@ -393,11 +403,13 @@
 				F9E8E79C1E64123A0056A873 /* JumpStarView.m in Sources */,
 				F99EA4F21E5D797D00AB3994 /* ViewController.m in Sources */,
 				F9BF54AC1E655D5100EEC8B5 /* SQPullToCurveView.m in Sources */,
+				ADC16AB61E65C43F00C1788A /* SQCurveView.m in Sources */,
 				F9E8E7951E63D7810056A873 /* SQBubbleTransition.m in Sources */,
 				F99EA4EF1E5D797D00AB3994 /* AppDelegate.m in Sources */,
 				F9E8E7A01E641C210056A873 /* DownloadButtonDemoController.m in Sources */,
 				F99EA4EC1E5D797D00AB3994 /* main.m in Sources */,
 				F99EA5121E5D7C5F00AB3994 /* GooeySlideMenuDemoController.m in Sources */,
+				ADC16AB91E65C49700C1788A /* SQCurveLayer.m in Sources */,
 				F9BF54A41E650AED00EEC8B5 /* InteractiveView.m in Sources */,
 				F9BF54A81E65583E00EEC8B5 /* AnimatedCurveDemoController.m in Sources */,
 				F99EA5151E5D857A00AB3994 /* GooeySlideMenu.m in Sources */,

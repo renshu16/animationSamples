@@ -19,14 +19,13 @@
     BOOL loading;
 }
 
-@property(nonatomic,assign)CGFloat *progress;
+@property(nonatomic,assign)CGFloat progress;
 @property(nonatomic,weak)UIScrollView *associatedScrollView;
 @property(nonatomic,copy)void(^refreshingBlock) (void);
 
 @end
 
 @implementation SQPullToCurveView
-
 
 -(instancetype)initWithAssociatedScrollView:(UIScrollView *)scrollView withNavigationBar:(BOOL)navBar
 {
@@ -56,13 +55,19 @@
     [self insertSubview:labelView atIndex:0];
 }
 
+- (void)setProgress:(CGFloat)progress
+{
+    _progress = progress;
+    NSLog(@"progress = %f",progress);
+}
+
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
 {
     if ([keyPath isEqualToString:@"contentOffset"]) {
         CGPoint contentOffset = [[change valueForKey:NSKeyValueChangeNewKey] CGPointValue];
-        NSLog(@"contentOffset %@",NSStringFromCGPoint(contentOffset));
+//        NSLog(@"contentOffset %@",NSStringFromCGPoint(contentOffset));
         if (contentOffset.y + originOffset <= 0) {
-            
+            self.progress = MAX(MIN(fabs(contentOffset.y + originOffset)/self.pullDistance, 1.0), 0);
         }
     }
 }
