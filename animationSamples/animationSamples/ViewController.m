@@ -23,7 +23,9 @@
                   @"SplashAnimationDemoController",
                   @"PingTransitionDemoController",
                   @"JumpStarViewDemoController",
-                  @"DownloadButtonDemoController"];
+                  @"DownloadButtonDemoController",
+                  @"InteractiveViewDemoController",
+                  @"AnimatedCurveDemoController"];
 }
 
 

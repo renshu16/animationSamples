@@ -19,6 +19,11 @@
 		F99EA5121E5D7C5F00AB3994 /* GooeySlideMenuDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99EA5111E5D7C5F00AB3994 /* GooeySlideMenuDemoController.m */; };
 		F99EA5151E5D857A00AB3994 /* GooeySlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F99EA5141E5D857A00AB3994 /* GooeySlideMenu.m */; };
 		F99EA5181E5DAB0200AB3994 /* SlideMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F99EA5171E5DAB0200AB3994 /* SlideMenuButton.m */; };
+		F9BF54A11E650ACF00EEC8B5 /* InteractiveViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BF54A01E650ACF00EEC8B5 /* InteractiveViewDemoController.m */; };
+		F9BF54A41E650AED00EEC8B5 /* InteractiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BF54A31E650AED00EEC8B5 /* InteractiveView.m */; };
+		F9BF54A81E65583E00EEC8B5 /* AnimatedCurveDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BF54A71E65583E00EEC8B5 /* AnimatedCurveDemoController.m */; };
+		F9BF54AC1E655D5100EEC8B5 /* SQPullToCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BF54AB1E655D5100EEC8B5 /* SQPullToCurveView.m */; };
+		F9BF54B01E655F9E00EEC8B5 /* UIView+Convenient.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BF54AF1E655F9E00EEC8B5 /* UIView+Convenient.m */; };
 		F9E8E78C1E63C2D70056A873 /* PingTransitionDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E8E78B1E63C2D70056A873 /* PingTransitionDemoController.m */; };
 		F9E8E7921E63C63E0056A873 /* PingSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E8E7911E63C63E0056A873 /* PingSecondController.m */; };
 		F9E8E7951E63D7810056A873 /* SQBubbleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E8E7941E63D7810056A873 /* SQBubbleTransition.m */; };
@@ -63,6 +68,16 @@
 		F99EA5141E5D857A00AB3994 /* GooeySlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooeySlideMenu.m; sourceTree = "<group>"; };
 		F99EA5161E5DAB0200AB3994 /* SlideMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuButton.h; sourceTree = "<group>"; };
 		F99EA5171E5DAB0200AB3994 /* SlideMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenuButton.m; sourceTree = "<group>"; };
+		F9BF549F1E650ACF00EEC8B5 /* InteractiveViewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveViewDemoController.h; sourceTree = "<group>"; };
+		F9BF54A01E650ACF00EEC8B5 /* InteractiveViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveViewDemoController.m; sourceTree = "<group>"; };
+		F9BF54A21E650AED00EEC8B5 /* InteractiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveView.h; sourceTree = "<group>"; };
+		F9BF54A31E650AED00EEC8B5 /* InteractiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveView.m; sourceTree = "<group>"; };
+		F9BF54A61E65583E00EEC8B5 /* AnimatedCurveDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedCurveDemoController.h; sourceTree = "<group>"; };
+		F9BF54A71E65583E00EEC8B5 /* AnimatedCurveDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedCurveDemoController.m; sourceTree = "<group>"; };
+		F9BF54AA1E655D5100EEC8B5 /* SQPullToCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPullToCurveView.h; sourceTree = "<group>"; };
+		F9BF54AB1E655D5100EEC8B5 /* SQPullToCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPullToCurveView.m; sourceTree = "<group>"; };
+		F9BF54AE1E655F9E00EEC8B5 /* UIView+Convenient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Convenient.h"; sourceTree = "<group>"; };
+		F9BF54AF1E655F9E00EEC8B5 /* UIView+Convenient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Convenient.m"; sourceTree = "<group>"; };
 		F9E8E78A1E63C2D70056A873 /* PingTransitionDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingTransitionDemoController.h; sourceTree = "<group>"; };
 		F9E8E78B1E63C2D70056A873 /* PingTransitionDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingTransitionDemoController.m; sourceTree = "<group>"; };
 		F9E8E7901E63C63E0056A873 /* PingSecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingSecondController.h; sourceTree = "<group>"; };
@@ -138,6 +153,8 @@
 		F99EA4E91E5D797D00AB3994 /* animationSamples */ = {
 			isa = PBXGroup;
 			children = (
+				F9BF54A51E65583000EEC8B5 /* AnimatedCurveDemo */,
+				F9BF549E1E650ABD00EEC8B5 /* InteractiveView */,
 				F9E8E79D1E6414470056A873 /* DownloadButtonDemo */,
 				F9E8E7961E6411CF0056A873 /* JumpStartView */,
 				F9E8E7861E63C28A0056A873 /* PingTransition */,
@@ -184,6 +201,46 @@
 				F99EA5171E5DAB0200AB3994 /* SlideMenuButton.m */,
 			);
 			path = GooeySlideMenuDemo;
+			sourceTree = "<group>";
+		};
+		F9BF549E1E650ABD00EEC8B5 /* InteractiveView */ = {
+			isa = PBXGroup;
+			children = (
+				F9BF549F1E650ACF00EEC8B5 /* InteractiveViewDemoController.h */,
+				F9BF54A01E650ACF00EEC8B5 /* InteractiveViewDemoController.m */,
+				F9BF54A21E650AED00EEC8B5 /* InteractiveView.h */,
+				F9BF54A31E650AED00EEC8B5 /* InteractiveView.m */,
+			);
+			path = InteractiveView;
+			sourceTree = "<group>";
+		};
+		F9BF54A51E65583000EEC8B5 /* AnimatedCurveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F9BF54A91E655D4000EEC8B5 /* SQPullToCurveView */,
+				F9BF54A61E65583E00EEC8B5 /* AnimatedCurveDemoController.h */,
+				F9BF54A71E65583E00EEC8B5 /* AnimatedCurveDemoController.m */,
+			);
+			path = AnimatedCurveDemo;
+			sourceTree = "<group>";
+		};
+		F9BF54A91E655D4000EEC8B5 /* SQPullToCurveView */ = {
+			isa = PBXGroup;
+			children = (
+				F9BF54AD1E655F9E00EEC8B5 /* Helpers */,
+				F9BF54AA1E655D5100EEC8B5 /* SQPullToCurveView.h */,
+				F9BF54AB1E655D5100EEC8B5 /* SQPullToCurveView.m */,
+			);
+			path = SQPullToCurveView;
+			sourceTree = "<group>";
+		};
+		F9BF54AD1E655F9E00EEC8B5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F9BF54AE1E655F9E00EEC8B5 /* UIView+Convenient.h */,
+				F9BF54AF1E655F9E00EEC8B5 /* UIView+Convenient.m */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		F9E8E7861E63C28A0056A873 /* PingTransition */ = {
@@ -325,19 +382,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9E8E7991E64122C0056A873 /* JumpStarViewDemoController.m in Sources */,
+				F9BF54A11E650ACF00EEC8B5 /* InteractiveViewDemoController.m in Sources */,
 				F91CB2531E5FC42E002B9DDB /* QQRedBageViewDemoController.m in Sources */,
 				F91CB2561E5FC4B0002B9DDB /* QQRedBageView.m in Sources */,
 				F99EA5181E5DAB0200AB3994 /* SlideMenuButton.m in Sources */,
 				F9E8E7921E63C63E0056A873 /* PingSecondController.m in Sources */,
 				F9E8E7A31E641C3A0056A873 /* SQDownloadButton.m in Sources */,
 				F91CB25A1E6031AC002B9DDB /* SplashAnimationDemoController.m in Sources */,
+				F9BF54B01E655F9E00EEC8B5 /* UIView+Convenient.m in Sources */,
 				F9E8E79C1E64123A0056A873 /* JumpStarView.m in Sources */,
 				F99EA4F21E5D797D00AB3994 /* ViewController.m in Sources */,
+				F9BF54AC1E655D5100EEC8B5 /* SQPullToCurveView.m in Sources */,
 				F9E8E7951E63D7810056A873 /* SQBubbleTransition.m in Sources */,
 				F99EA4EF1E5D797D00AB3994 /* AppDelegate.m in Sources */,
 				F9E8E7A01E641C210056A873 /* DownloadButtonDemoController.m in Sources */,
 				F99EA4EC1E5D797D00AB3994 /* main.m in Sources */,
 				F99EA5121E5D7C5F00AB3994 /* GooeySlideMenuDemoController.m in Sources */,
+				F9BF54A41E650AED00EEC8B5 /* InteractiveView.m in Sources */,
+				F9BF54A81E65583E00EEC8B5 /* AnimatedCurveDemoController.m in Sources */,
 				F99EA5151E5D857A00AB3994 /* GooeySlideMenu.m in Sources */,
 				F9E8E78C1E63C2D70056A873 /* PingTransitionDemoController.m in Sources */,
 			);
