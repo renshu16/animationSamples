@@ -67,7 +67,6 @@
     radiusShrinkAnimation.fromValue = @(originframe.size.height/2);
     
     //不设置toValue，只需要监听动画开始的代理，动画的过程用UIView的animate方法，可以实现弹性效果
-    
     radiusShrinkAnimation.delegate = self;
     [self.layer addAnimation:radiusShrinkAnimation forKey:@"cornerRadiusShrinkAnim"];
     
@@ -98,7 +97,46 @@
 
 - (void)checkAnimation
 {
+    //设置CAShapeLayer的path属性，控制strokeEnd属性动画
     CAShapeLayer *checkLayer = [CAShapeLayer layer];
+    UIBezierPath *path = [UIBezierPath bezierPath];
+    CGFloat insetRectInCircle = (1-sqrtf(2.0)/2)*self.frame.size.width/2;
+    CGRect rectInCircle = CGRectInset(self.bounds, insetRectInCircle, insetRectInCircle);
+    [path moveToPoint:CGPointMake(rectInCircle.origin.x + rectInCircle.size.width/9, rectInCircle.origin.y + rectInCircle.size.height*2/3)];
+    [path addLineToPoint:CGPointMake(rectInCircle.origin.x + rectInCircle.size.width/3,rectInCircle.origin.y + rectInCircle.size.height*9/10)];
+    [path addLineToPoint:CGPointMake(rectInCircle.origin.x + rectInCircle.size.width*8/10, rectInCircle.origin.y + rectInCircle.size.height*2/10)];
+    
+    checkLayer.path = path.CGPath;
+    checkLayer.lineWidth = 10.0f;
+    checkLayer.lineCap = kCALineCapRound;
+    //path线段交点渲染模式
+    checkLayer.lineJoin = kCALineJoinRound;
+    checkLayer.fillColor = [UIColor clearColor].CGColor;
+    checkLayer.strokeColor = [UIColor whiteColor].CGColor;
+    [self.layer addSublayer:checkLayer];
+    
+    CABasicAnimation *checkAnimation = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
+    checkAnimation.duration = 0.3;
+    checkAnimation.fromValue = @0;
+    checkAnimation.toValue = @1;
+    checkAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
+    checkAnimation.delegate = self;
+    [checkAnimation setValue:@"checkAnimation" forKey:@"animationName"];
+    [checkLayer addAnimation:checkAnimation forKey:nil];
+    
+    //同时控制 strokeStart 和 strokeEnd
+//    CABasicAnimation *checkAnimation2 = [CABasicAnimation animationWithKeyPath:@"strokeStart"];
+//    checkAnimation2.beginTime = CACurrentMediaTime() + 0.1;
+//    checkAnimation2.duration = 0.3;
+//    checkAnimation2.fromValue = @0;
+//    checkAnimation2.toValue = @1;
+//    checkAnimation2.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
+//    checkAnimation2.delegate = self;
+//    checkAnimation2.fillMode = kCAFillModeForwards;
+//    checkAnimation2.removedOnCompletion = NO;
+//    [checkAnimation2 setValue:@"checkAnimation2" forKey:@"animationName"];
+//    [checkLayer addAnimation:checkAnimation2 forKey:nil];
+    
     
 }
 
@@ -127,8 +165,9 @@
                              self.bounds = originframe;
                              self.backgroundColor = [UIColor colorWithRed:0.1803921568627451 green:0.8 blue:0.44313725490196076 alpha:1.0];
                          } completion:^(BOOL finished) {
-                             [self.layer removeFromSuperlayer];
+                             [self.layer removeAllAnimations];
                              [self checkAnimation];
+                             animating = NO;
                          }];
     }
 }
@@ -161,9 +200,8 @@
 
             }
         }];
-        
-
     }
+
 }
 
 @end
