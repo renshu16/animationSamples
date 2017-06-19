@@ -12,6 +12,9 @@
 		F91CB2531E5FC42E002B9DDB /* QQRedBageViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91CB2521E5FC42E002B9DDB /* QQRedBageViewDemoController.m */; };
 		F91CB2561E5FC4B0002B9DDB /* QQRedBageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F91CB2551E5FC4B0002B9DDB /* QQRedBageView.m */; };
 		F91CB25A1E6031AC002B9DDB /* SplashAnimationDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91CB2591E6031AC002B9DDB /* SplashAnimationDemoController.m */; };
+		F99B67811EF0CB49008204D9 /* HTMLLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99B67801EF0CB49008204D9 /* HTMLLabelController.m */; };
+		F99B67961EF51236008204D9 /* SQSquareTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F99B67951EF51236008204D9 /* SQSquareTransition.m */; };
+		F99B67991EF530C7008204D9 /* SQNavigationTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F99B67981EF530C7008204D9 /* SQNavigationTransitionDelegate.m */; };
 		F99EA4EC1E5D797D00AB3994 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F99EA4EB1E5D797D00AB3994 /* main.m */; };
 		F99EA4EF1E5D797D00AB3994 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F99EA4EE1E5D797D00AB3994 /* AppDelegate.m */; };
 		F99EA4F21E5D797D00AB3994 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99EA4F11E5D797D00AB3994 /* ViewController.m */; };
@@ -56,6 +59,12 @@
 		F91CB2551E5FC4B0002B9DDB /* QQRedBageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQRedBageView.m; sourceTree = "<group>"; };
 		F91CB2581E6031AC002B9DDB /* SplashAnimationDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashAnimationDemoController.h; sourceTree = "<group>"; };
 		F91CB2591E6031AC002B9DDB /* SplashAnimationDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashAnimationDemoController.m; sourceTree = "<group>"; };
+		F99B677F1EF0CB49008204D9 /* HTMLLabelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLLabelController.h; sourceTree = "<group>"; };
+		F99B67801EF0CB49008204D9 /* HTMLLabelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLLabelController.m; sourceTree = "<group>"; };
+		F99B67941EF51236008204D9 /* SQSquareTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQSquareTransition.h; sourceTree = "<group>"; };
+		F99B67951EF51236008204D9 /* SQSquareTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQSquareTransition.m; sourceTree = "<group>"; };
+		F99B67971EF530C7008204D9 /* SQNavigationTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQNavigationTransitionDelegate.h; sourceTree = "<group>"; };
+		F99B67981EF530C7008204D9 /* SQNavigationTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQNavigationTransitionDelegate.m; sourceTree = "<group>"; };
 		F99EA4E71E5D797D00AB3994 /* animationSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animationSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99EA4EB1E5D797D00AB3994 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F99EA4ED1E5D797D00AB3994 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -175,6 +184,8 @@
 				F99EA4F81E5D797D00AB3994 /* LaunchScreen.storyboard */,
 				F99EA4FB1E5D797D00AB3994 /* Info.plist */,
 				F99EA4EA1E5D797D00AB3994 /* Supporting Files */,
+				F99B677F1EF0CB49008204D9 /* HTMLLabelController.h */,
+				F99B67801EF0CB49008204D9 /* HTMLLabelController.m */,
 			);
 			path = animationSamples;
 			sourceTree = "<group>";
@@ -262,6 +273,10 @@
 				F9E8E7911E63C63E0056A873 /* PingSecondController.m */,
 				F9E8E7931E63D7810056A873 /* SQBubbleTransition.h */,
 				F9E8E7941E63D7810056A873 /* SQBubbleTransition.m */,
+				F99B67941EF51236008204D9 /* SQSquareTransition.h */,
+				F99B67951EF51236008204D9 /* SQSquareTransition.m */,
+				F99B67971EF530C7008204D9 /* SQNavigationTransitionDelegate.h */,
+				F99B67981EF530C7008204D9 /* SQNavigationTransitionDelegate.m */,
 			);
 			path = PingTransition;
 			sourceTree = "<group>";
@@ -392,6 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9E8E7991E64122C0056A873 /* JumpStarViewDemoController.m in Sources */,
+				F99B67811EF0CB49008204D9 /* HTMLLabelController.m in Sources */,
 				F9BF54A11E650ACF00EEC8B5 /* InteractiveViewDemoController.m in Sources */,
 				F91CB2531E5FC42E002B9DDB /* QQRedBageViewDemoController.m in Sources */,
 				F91CB2561E5FC4B0002B9DDB /* QQRedBageView.m in Sources */,
@@ -400,10 +416,12 @@
 				F9E8E7A31E641C3A0056A873 /* SQDownloadButton.m in Sources */,
 				F91CB25A1E6031AC002B9DDB /* SplashAnimationDemoController.m in Sources */,
 				F9BF54B01E655F9E00EEC8B5 /* UIView+Convenient.m in Sources */,
+				F99B67991EF530C7008204D9 /* SQNavigationTransitionDelegate.m in Sources */,
 				F9E8E79C1E64123A0056A873 /* JumpStarView.m in Sources */,
 				F99EA4F21E5D797D00AB3994 /* ViewController.m in Sources */,
 				F9BF54AC1E655D5100EEC8B5 /* SQPullToCurveView.m in Sources */,
 				ADC16AB61E65C43F00C1788A /* SQCurveView.m in Sources */,
+				F99B67961EF51236008204D9 /* SQSquareTransition.m in Sources */,
 				F9E8E7951E63D7810056A873 /* SQBubbleTransition.m in Sources */,
 				F99EA4EF1E5D797D00AB3994 /* AppDelegate.m in Sources */,
 				F9E8E7A01E641C210056A873 /* DownloadButtonDemoController.m in Sources */,

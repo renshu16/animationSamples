@@ -25,7 +25,8 @@
                   @"JumpStarViewDemoController",
                   @"DownloadButtonDemoController",
                   @"InteractiveViewDemoController",
-                  @"AnimatedCurveDemoController"];
+                  @"AnimatedCurveDemoController",
+                  @"HTMLLabelController"];
 }
 
 

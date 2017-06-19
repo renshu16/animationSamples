@@ -9,6 +9,7 @@
 #import "PingTransitionDemoController.h"
 #import "PingSecondController.h"
 #import "SQBubbleTransition.h"
+#import "SQSquareTransition.h"
 
 #define color_random            [UIColor colorWithRed:(arc4random() % 256 / 255.0) green:(arc4random() % 256 / 255.0) blue:(arc4random() % 256 / 255.0) alpha:1.0f]
 
@@ -41,6 +42,16 @@
         btn.backgroundColor = color_random;
         [self.view addSubview:btn];
     }
+    
+    
+    for (int i=0; i<3; i++) {
+        UIButton *_button = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_button setBackgroundColor:[UIColor whiteColor]];
+        CGFloat btnW = 80;
+        _button.frame = CGRectMake(30, startY + i*150, btnW, btnW);
+        [_button addTarget:self action:@selector(onBtnAction:) forControlEvents:UIControlEventTouchUpInside];
+        [self.view addSubview:_button];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -54,12 +65,17 @@
                                                    toViewController:(UIViewController *)toVC
 {
     if (operation == UINavigationControllerOperationPush) {
-        SQBubbleTransition *bubTran = [[SQBubbleTransition alloc] init];
-        bubTran.startPoint = currentBtn.center;
-        bubTran.bubbleColor = currentBtn.backgroundColor;
-        bubTran.duration = 0.25;
-        bubTran.transitionMode = Present;
-        return bubTran;
+//        SQBubbleTransition *bubTran = [[SQBubbleTransition alloc] init];
+//        bubTran.startPoint = currentBtn.center;
+//        bubTran.bubbleColor = currentBtn.backgroundColor;
+//        bubTran.duration = 1.25;
+//        bubTran.transitionMode = Present;
+//        return bubTran;
+        
+        SQSquareTransition *sqTran = [[SQSquareTransition alloc] init];
+        sqTran.startFrame = currentBtn.frame;
+        sqTran.isPresenting = YES;
+        return sqTran;
     }else{
         return nil;
     }
