@@ -26,7 +26,9 @@
                   @"DownloadButtonDemoController",
                   @"InteractiveViewDemoController",
                   @"AnimatedCurveDemoController",
-                  @"HTMLLabelController"];
+                  @"HTMLLabelController",
+                  @"CrashController",
+                  ];
 }
 
 

@@ -15,6 +15,7 @@
 		F99B67811EF0CB49008204D9 /* HTMLLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99B67801EF0CB49008204D9 /* HTMLLabelController.m */; };
 		F99B67961EF51236008204D9 /* SQSquareTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F99B67951EF51236008204D9 /* SQSquareTransition.m */; };
 		F99B67991EF530C7008204D9 /* SQNavigationTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F99B67981EF530C7008204D9 /* SQNavigationTransitionDelegate.m */; };
+		F99B67B01EF91D54008204D9 /* CrashController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99B67AF1EF91D54008204D9 /* CrashController.m */; };
 		F99EA4EC1E5D797D00AB3994 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F99EA4EB1E5D797D00AB3994 /* main.m */; };
 		F99EA4EF1E5D797D00AB3994 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F99EA4EE1E5D797D00AB3994 /* AppDelegate.m */; };
 		F99EA4F21E5D797D00AB3994 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99EA4F11E5D797D00AB3994 /* ViewController.m */; };
@@ -65,6 +66,8 @@
 		F99B67951EF51236008204D9 /* SQSquareTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQSquareTransition.m; sourceTree = "<group>"; };
 		F99B67971EF530C7008204D9 /* SQNavigationTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQNavigationTransitionDelegate.h; sourceTree = "<group>"; };
 		F99B67981EF530C7008204D9 /* SQNavigationTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQNavigationTransitionDelegate.m; sourceTree = "<group>"; };
+		F99B67AE1EF91D54008204D9 /* CrashController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashController.h; sourceTree = "<group>"; };
+		F99B67AF1EF91D54008204D9 /* CrashController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashController.m; sourceTree = "<group>"; };
 		F99EA4E71E5D797D00AB3994 /* animationSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animationSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99EA4EB1E5D797D00AB3994 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F99EA4ED1E5D797D00AB3994 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -186,6 +189,8 @@
 				F99EA4EA1E5D797D00AB3994 /* Supporting Files */,
 				F99B677F1EF0CB49008204D9 /* HTMLLabelController.h */,
 				F99B67801EF0CB49008204D9 /* HTMLLabelController.m */,
+				F99B67AE1EF91D54008204D9 /* CrashController.h */,
+				F99B67AF1EF91D54008204D9 /* CrashController.m */,
 			);
 			path = animationSamples;
 			sourceTree = "<group>";
@@ -418,6 +423,7 @@
 				F9BF54B01E655F9E00EEC8B5 /* UIView+Convenient.m in Sources */,
 				F99B67991EF530C7008204D9 /* SQNavigationTransitionDelegate.m in Sources */,
 				F9E8E79C1E64123A0056A873 /* JumpStarView.m in Sources */,
+				F99B67B01EF91D54008204D9 /* CrashController.m in Sources */,
 				F99EA4F21E5D797D00AB3994 /* ViewController.m in Sources */,
 				F9BF54AC1E655D5100EEC8B5 /* SQPullToCurveView.m in Sources */,
 				ADC16AB61E65C43F00C1788A /* SQCurveView.m in Sources */,
